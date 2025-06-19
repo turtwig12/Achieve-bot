@@ -4,7 +4,7 @@ password="your_password"
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-number=int(input("number of questions to answer:"))
+number=100
 # Set up the Chrome browser
 driver = webdriver.Chrome()
 def logon():
@@ -46,6 +46,7 @@ def answer(number):
 logon()
 answer(number)
 # Close the browser
+driver.quit()
 # driver.quit()
 
 
