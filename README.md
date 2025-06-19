@@ -1,6 +1,5 @@
 # How to use
-
-download the python file, if you have a python interpreter this will make this easy to run, if you do not it will be harder.
+Achieve-bot is a python program that given the correct information will answer 300 question in N5 Computing on the achieve website on the specified account, the program can be run multiple times to get high streaks 
 ### I don't understand python
 This will only take a few minutes to get set up, first download the file like normal
 after this is done open command prompt(⊞+R "cmd") after this is open type the command "python" this will either allow you to run python scripts after downloading an interpreter, or it will open the Microsoft store where you can download the interpreter, while in command prompt also run the comand "pip install selenium". After this is done open the file ending with .py/the file type is PY open with notepad (if prompted if you want to open this file type just once or always select just once). After the file is opened change the username and password variables to your username and password (i.e. password="your_password"). After this is done close the file saving the changes, making sure that the file is actualy closed and not just notepad. Double click the file and it should work, it may take a few seconds but a Google for testing tab should open up
